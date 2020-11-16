@@ -1,0 +1,21 @@
+@font-face {
+    font-family: scoreFont;
+    src: url('../assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e10101;
+    overflow: hidden;
+    display: flex;
+    justify-content: center
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    width: auto !important;
+    height: 100% !important;
+    margin: 0 !important
+}
